@@ -17,9 +17,9 @@ This Python script solves the **Fractional Knapsack Problem** using a greedy alg
 
 The script reads data from a text file (default: `knapsack.txt`). The file must be UTF-8 encoded and follow this format:
 
-1.  **Line 1:** Number of items (integer). _(Note: This number isn't strictly used by the algorithm itself but is expected in the format)._
-2.  **Line 2:** Knapsack capacity (integer or float). Must be non-negative.
-3.  **Line 3 onwards:** Each line represents an item, containing its `value` and `weight`, separated by a space (both should be non-negative integers or floats).
+1.  Number of items (integer). _(Note: This number isn't strictly used by the algorithm itself but is expected in the format)._
+2.  Knapsack capacity (integer or float). Must be non-negative.
+3.  Each line represents an item, containing its `value` and `weight`, separated by a space (both should be non-negative integers or floats).
 
 ## How to Run
 
